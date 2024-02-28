@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from "uuid";
 import mysql from "mysql";
 
 // Create MySQL connection
+// npm install @types/mysql
 const connection = mysql.createConnection({
   host: "localhost",
   user: "root",
